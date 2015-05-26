@@ -13,6 +13,11 @@
 		D9DF8F381B14F85E00ADE381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DF8F371B14F85E00ADE381 /* Images.xcassets */; };
 		D9DF8F3B1B14F85E00ADE381 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9DF8F391B14F85E00ADE381 /* LaunchScreen.xib */; };
 		D9DF8F471B14F85E00ADE381 /* VendingMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF8F461B14F85E00ADE381 /* VendingMachineTests.swift */; };
+		D9DF8F511B14F88D00ADE381 /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF8F501B14F88D00ADE381 /* VendingMachine.swift */; };
+		D9DF8F531B14FABA00ADE381 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF8F521B14FABA00ADE381 /* Coin.swift */; };
+		D9DF8F551B14FD6C00ADE381 /* AcceptCoinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF8F541B14FD6C00ADE381 /* AcceptCoinsTests.swift */; };
+		D9DF8F561B14FDF500ADE381 /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF8F501B14F88D00ADE381 /* VendingMachine.swift */; };
+		D9DF8F571B14FDF900ADE381 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF8F521B14FABA00ADE381 /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 		D9DF8F401B14F85E00ADE381 /* VendingMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendingMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DF8F451B14F85E00ADE381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9DF8F461B14F85E00ADE381 /* VendingMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineTests.swift; sourceTree = "<group>"; };
+		D9DF8F501B14F88D00ADE381 /* VendingMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
+		D9DF8F521B14FABA00ADE381 /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		D9DF8F541B14FD6C00ADE381 /* AcceptCoinsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptCoinsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 			children = (
 				D9DF8F301B14F85E00ADE381 /* AppDelegate.swift */,
 				D9DF8F321B14F85E00ADE381 /* ViewController.swift */,
+				D9DF8F501B14F88D00ADE381 /* VendingMachine.swift */,
+				D9DF8F521B14FABA00ADE381 /* Coin.swift */,
 				D9DF8F341B14F85E00ADE381 /* Main.storyboard */,
 				D9DF8F371B14F85E00ADE381 /* Images.xcassets */,
 				D9DF8F391B14F85E00ADE381 /* LaunchScreen.xib */,
@@ -99,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				D9DF8F461B14F85E00ADE381 /* VendingMachineTests.swift */,
+				D9DF8F541B14FD6C00ADE381 /* AcceptCoinsTests.swift */,
 				D9DF8F441B14F85E00ADE381 /* Supporting Files */,
 			);
 			path = VendingMachineTests;
@@ -214,6 +225,8 @@
 			files = (
 				D9DF8F331B14F85E00ADE381 /* ViewController.swift in Sources */,
 				D9DF8F311B14F85E00ADE381 /* AppDelegate.swift in Sources */,
+				D9DF8F531B14FABA00ADE381 /* Coin.swift in Sources */,
+				D9DF8F511B14F88D00ADE381 /* VendingMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DF8F551B14FD6C00ADE381 /* AcceptCoinsTests.swift in Sources */,
 				D9DF8F471B14F85E00ADE381 /* VendingMachineTests.swift in Sources */,
+				D9DF8F571B14FDF900ADE381 /* Coin.swift in Sources */,
+				D9DF8F561B14FDF500ADE381 /* VendingMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
