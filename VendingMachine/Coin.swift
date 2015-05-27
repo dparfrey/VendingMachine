@@ -17,11 +17,11 @@ enum CoinType {
 
 class Coin {
   let type:CoinType
-  let value:Double
+  let value:Int
   let weight:Int        // use a dummy int value for this exercise
   let size: Int         // same as weight, just a dummy value
   
-  init(type:CoinType, value:Double, weight:Int, size:Int) {
+  init(type:CoinType, value:Int, weight:Int, size:Int) {
     self.type = type
     self.value = value
     self.weight = weight
